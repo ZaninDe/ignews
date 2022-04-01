@@ -50,7 +50,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.10.2", "@babel/runtime@^7.16.3":
+"@babel/runtime@^7.10.2", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.3":
   version "7.17.8"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.8.tgz#3e56e4aff81befa55ac3ac6a0967349fd1c5bca2"
   integrity sha512-dQpEpK0O9o6lj6oPu0gRDbbnk+4LeHlNcBpspf6Olzt3GIX4P1lWF1gS+pHLDFlaJvbR6q7jCfQ08zA4QJBnmA==
@@ -234,7 +234,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@panva/hkdf@^1.0.1":
+"@panva/hkdf@^1.0.0", "@panva/hkdf@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@panva/hkdf/-/hkdf-1.0.1.tgz#ed0da773bd5f794d0603f5a5b5cee6d2354e5660"
   integrity sha512-mMyQ9vjpuFqePkfe5bZVIf/H3Dmk6wA8Kjxff9RcO4kqzJo+Ek9pGKwZHpeMr7Eku0QhLXMCd7fNCSnEnRMubg==
@@ -243,6 +243,11 @@
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.8.tgz#be3e914e84eacf16dbebd311c0d0b44aa1174c64"
   integrity sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==
+
+"@stripe/stripe-js@^1.26.0":
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.26.0.tgz#45670924753c01e18d0544ea1f1067b474aaa96f"
+  integrity sha512-4R1vC75yKaCVFARW3bhelf9+dKt4NP4iZY/sIjGK7AAMBVvZ47eG74NvsAIUdUnhOXSWFMjdFWqv+etk5BDW4g==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
@@ -469,6 +474,13 @@ axe-core@^4.3.5:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.1.tgz#7dbdc25989298f9ad006645cd396782443757413"
   integrity sha512-gd1kmb21kwNuWr6BQz8fv6GNECPBnUasepcoLbekws23NVBLODdsClRZ+bQ8+9Uomf3Sm3+Vwn0oYG9NvwnJCw==
+
+axios@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.26.1.tgz#1ede41c51fcf51bbbd6fd43669caaa4f0495aaa9"
+  integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
+  dependencies:
+    follow-redirects "^1.14.8"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -1409,6 +1421,11 @@ fn-annotate@^1.1.3:
   resolved "https://registry.yarnpkg.com/fn-annotate/-/fn-annotate-1.2.0.tgz#28da000117dea61842fe61f353f41cf4c93a7a7e"
   integrity sha1-KNoAARfephhC/mHzU/Qc9Mk6en4=
 
+follow-redirects@^1.14.8:
+  version "1.14.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.9.tgz#dd4ea157de7bfaf9ea9b3fbd85aa16951f78d8d7"
+  integrity sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w==
+
 foreach@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
@@ -1834,7 +1851,7 @@ jest-worker@27.0.0-next.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jose@^4.1.4, jose@^4.3.7:
+jose@^4.1.2, jose@^4.1.4, jose@^4.3.7:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/jose/-/jose-4.6.0.tgz#f3ff007ddcbce462c091d3d41b7af2e35dec348c"
   integrity sha512-0hNAkhMBNi4soKSAX4zYOFV+aqJlEz/4j4fregvasJzEVtjDChvWqRjPvHwLqr5hx28Ayr6bsOs1Kuj87V0O8w==
@@ -2033,7 +2050,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-auth@*, next-auth@^4.3.1:
+next-auth@*:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.3.1.tgz#94520592d1d1851eb66ca3ad2758637e1df950e1"
   integrity sha512-DBYEPBLq5naIqh/1i2zEHljcA1OXXecKW3NRU1W4s6R3UX3RdLZ2lWlqgBHUiZQ1zdNikFM/bYQxVGyG7bx8oA==
@@ -2045,6 +2062,21 @@ next-auth@*, next-auth@^4.3.1:
     oauth "^0.9.15"
     openid-client "^5.1.0"
     preact "^10.6.3"
+    preact-render-to-string "^5.1.19"
+    uuid "^8.3.2"
+
+next-auth@^4.0.0-beta.7:
+  version "4.0.0-beta.7"
+  resolved "https://registry.yarnpkg.com/next-auth/-/next-auth-4.0.0-beta.7.tgz#220aea0c1afa35bd9fa0bfad9bf2e62e91772bf2"
+  integrity sha512-bPoLak4MfmgrcLLaf26tEQttKJPBcP3KAtSXSo2xMhoG+PLnP9gwFmqLwFUX+FvVRf/iwuAUZjPRAqRQ9g3GOw==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@panva/hkdf" "^1.0.0"
+    cookie "^0.4.1"
+    jose "^4.1.2"
+    oauth "^0.9.15"
+    openid-client "^5.0.2"
+    preact "^10.5.14"
     preact-render-to-string "^5.1.19"
     uuid "^8.3.2"
 
@@ -2239,7 +2271,7 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-openid-client@^5.1.0:
+openid-client@^5.0.2, openid-client@^5.1.0:
   version "5.1.4"
   resolved "https://registry.yarnpkg.com/openid-client/-/openid-client-5.1.4.tgz#1d7c44da8fcf5861c585a2f7ffe4ffe152f2abd5"
   integrity sha512-36/PZY3rDgiIFj2uCL9a1fILPmIwu3HksoWO4mukgXe74ZOsEisJMMqTMfmPNw6j/7kO0mBc2xqy4eYRrB8xPA==
@@ -2413,7 +2445,7 @@ preact-render-to-string@^5.1.19:
   dependencies:
     pretty-format "^3.8.0"
 
-preact@^10.6.3:
+preact@^10.5.14, preact@^10.6.3:
   version "10.7.0"
   resolved "https://registry.yarnpkg.com/preact/-/preact-10.7.0.tgz#3bd424677a894c8199f66a881df283b44bea0eeb"
   integrity sha512-9MEURwzNMKpAil/t6+wabDIJI6oG6GnwypYxiJDvQnW+fHDTt51PYuLZ1QUM31hFr7sDaj9qTaShAF9VIxuxGQ==
