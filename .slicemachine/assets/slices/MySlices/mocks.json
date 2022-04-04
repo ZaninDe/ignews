@@ -1,0 +1,24 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "my_slices",
+    "items": [],
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "Morph bricks-and-clicks relationships",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "Adipisicing elit aute mollit cupidatat qui laboris laboris id sunt.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
