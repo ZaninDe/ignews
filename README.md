@@ -108,7 +108,7 @@ Check out the [contributing](https://github.com/ZaninDe/ignews/blob/master/CONTR
 
 # :closed_book: License
 
-Released in 2020 (Work in progress)
+Released in 2022 (Work in progress)
 This project is under the [MIT license](https://github.com/ZaninDe/ignews/master/LICENSE).
 
 Made with love by [Gabriel Zanin](https://github.com/ZaninDe) 🚀
