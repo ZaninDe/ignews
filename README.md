@@ -18,9 +18,6 @@
 - [:pushpin: Table of Contents](#pushpin-table-of-contents)
 - [:rocket: Features](#rocket-features)
       - [Enjoy your subscription and get access entire of the posts](#enjoy-your-subscription-and-get-access-entire-of-the-posts)
-      - [Listing notifications and marking them as read](#listing-notifications-and-marking-them-as-read)
-      - [Updating user profile](#updating-user-profile)
-- [:framed_picture: UI Documentation](#framed_picture-ui-documentation)
 - [:construction_worker: Installation](#construction_worker-installation)
   - [necessary settings](#necessary-settings)
     - [**Requirements**](#requirements)
@@ -46,20 +43,6 @@
 
 <img src=".github/subscription.gif" height="250px">
 
-#### Listing notifications and marking them as read
-
-<img src="docs/features/marking-notifications-as-read.gif">
-
-#### Updating user profile
-
-<img src="docs/features/profile.gif">
-
-# :framed_picture: UI Documentation
-This project has a UI Documentation of reusable components, allowing to test them individually.
-
-
-
-<p align="left"><img src="docs/storybook.gif?raw=true"/></p>
 
 # :construction_worker: Installation
 
@@ -128,4 +111,4 @@ Check out the [contributing](https://github.com/ZaninDe/ignews/blob/master/CONTR
 Released in 2020 (Work in progress)
 This project is under the [MIT license](https://github.com/ZaninDe/ignews/master/LICENSE).
 
-Made with love by [Laura Beatris](https://github.com/LauraBeatris) 💜🚀
+Made with love by [Gabriel Zanin](https://github.com/ZaninDe) 🚀
