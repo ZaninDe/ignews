@@ -30,7 +30,8 @@ export async function saveSubscription(
 
   console.log(subscriptionData)
 
-  if(createAction){
+  // check thist code
+  if (createAction) {
     await fauna.query(
       q.Create(
         q.Collection('subscriptions'),
